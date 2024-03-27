@@ -1,0 +1,21 @@
+---
+layout: default
+title: Conquista Bienes Raíces | Blog
+custom_css: blog.css
+---
+<div class="bandeau">
+  <div id="name"><p>Artículos<p></div>
+  <div id="annee"><p>Año<p></div>
+</div>
+<ul class="content-scroll">
+{% for post in site.posts %}
+  <li class="tooltip projet">
+    <a href="{{ post.url }}">
+      <h2 class="blog-title">
+        {{ post.title }}
+      </h2>
+      <h2>{{ post.date | date: "%Y" }}</h2>
+    </a>
+  </li>
+{% endfor %}
+</ul>
