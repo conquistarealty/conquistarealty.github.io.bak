@@ -1,5 +1,8 @@
     body{
-      grid-template-rows: repeat(6, 6fr var(--margin-grid)) var(--margin-border);
+      background-image: url('/assets/images/conquest.png');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     .intro{
