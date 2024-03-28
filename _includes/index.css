@@ -5,6 +5,10 @@
       background-size: cover;
     }
 
+    .header a {
+      text-shadow: 2px 2px 1px black;
+    }
+
     .intro {
       position: absolute;
       top: 50%;
@@ -13,10 +17,14 @@
       text-align: center; /* Center text horizontally */
     }
 
-    .quote{
-      font-size: 22px;
+    .quote {
+      font-size: 44px;
       text-align: center;
       line-height: 2em;
+      font-weight: bold;
+      text-shadow:
+         2px 2px 0px black,
+         3px 3px 0px black;
     }
 
     .reference{
@@ -32,9 +40,13 @@
       }
 
       .quote{
-        font-size: 14px;
+        font-size: 44px;
         text-align: center;
         line-height: 2em;
+        font-weight: bold;
+        text-shadow:
+           2px 2px 0px black,
+           3px 3px 0px black;
       }
 
       .reference{
@@ -59,9 +71,13 @@
       }
 
       .quote{
-        font-size: 14px;
+        font-size: 44px;
         text-align: center;
         line-height: 2em;
+        font-weight: bold;
+        text-shadow:
+           2px 2px 0px black,
+           3px 3px 0px black;
       }
 
       .reference{
